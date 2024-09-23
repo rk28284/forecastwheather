@@ -92,7 +92,14 @@ cd weather-forecast-app
 
 <h2>Screenshots</h2>
 <h3>Current Weather and Forecast</h3>
-<p><img src="#" alt="Weather App Screenshot"></p>
+![Screenshot 2024-09-23 112325](https://github.com/user-attachments/assets/acc5202e-5f38-4d5e-82e7-f1049133e71e)![Screenshot 2024-09-23 112339](https://github.com/user-attachments/assets/39afec32-3132-4fb7-960f-bb0cf1a1ffc7)
+
 
 <h3>Error Modal (Invalid City)</h3>
-<p><img src="#" alt="Error Modal Screenshot"></p>
+
+![Screenshot 2024-09-23 112307](https://github.com/user-attachments/assets/c7eef031-b87b-4d16-8cd7-68f7cad044dc)
+
+![Screenshot (368)](https://github.com/user-attachments/assets/3030b246-8ae5-4cad-ba32-98223d0f4e2f)
+
+
+
