@@ -19,6 +19,20 @@
   You can check out a live demo <a href="https://forecastwheather.vercel.app/" target="_blank">here</a>.
 </p>
 
+<h2>Screenshots</h2>
+<h3>Current Weather and Forecast</h3>
+
+![Screenshot 2024-09-23 112325](https://github.com/user-attachments/assets/7f2273e4-c5da-4b1f-be3a-3791f67ea0f0)
+
+
+![Screenshot 2024-09-23 112339](https://github.com/user-attachments/assets/ef308260-0a83-4aec-894e-0cb4f1dd9ae5)
+
+
+<h3>Error Modal (Invalid City)</h3>
+
+![Screenshot 2024-09-23 112307](https://github.com/user-attachments/assets/c7eef031-b87b-4d16-8cd7-68f7cad044dc)
+
+![Screenshot (368)](https://github.com/user-attachments/assets/3030b246-8ae5-4cad-ba32-98223d0f4e2f)
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository to your local machine:
@@ -90,20 +104,6 @@ cd weather-forecast-app
 <pre><code>REACT_APP_API_KEY=your_openweathermap_api_key
 </code></pre>
 
-<h2>Screenshots</h2>
-<h3>Current Weather and Forecast</h3>
-
-![Screenshot 2024-09-23 112325](https://github.com/user-attachments/assets/7f2273e4-c5da-4b1f-be3a-3791f67ea0f0)
-
-
-![Screenshot 2024-09-23 112339](https://github.com/user-attachments/assets/ef308260-0a83-4aec-894e-0cb4f1dd9ae5)
-
-
-<h3>Error Modal (Invalid City)</h3>
-
-![Screenshot 2024-09-23 112307](https://github.com/user-attachments/assets/c7eef031-b87b-4d16-8cd7-68f7cad044dc)
-
-![Screenshot (368)](https://github.com/user-attachments/assets/3030b246-8ae5-4cad-ba32-98223d0f4e2f)
 
 
 
