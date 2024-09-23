@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<h1>Weather Forecast Application</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+  This is a React.js-based weather forecast application that displays current weather conditions and a 5-day weather forecast for a selected city. The application uses the OpenWeatherMap API to fetch weather data, and Chakra UI for styling and modal popups.
+</p>
 
-## Available Scripts
+<h2>Features</h2>
+<ul>
+  <li>Search weather by city name.</li>
+  <li>Display current weather conditions including temperature, weather description, and weather icon.</li>
+  <li>Toggle temperature display between Celsius and Fahrenheit.</li>
+  <li>5-day weather forecast with daily high and low temperatures.</li>
+  <li>Error handling with a modal popup for invalid city names.</li>
+  <li>Responsive design with Chakra UI components.</li>
+</ul>
 
-In the project directory, you can run:
+<h2>Demo</h2>
+<p>
+  You can check out a live demo <a href="https://forecastwheather.vercel.app/" target="_blank">here</a>.
+</p>
 
-### `npm start`
+<h2>Installation</h2>
+<ol>
+  <li>Clone the repository to your local machine:
+    <pre><code>git clone https://github.com/your-username/weather-forecast-app.git
+cd weather-forecast-app
+</code></pre>
+  </li>
+  <li>Install the necessary dependencies:
+    <pre><code>npm install</code></pre>
+  </li>
+  <li>Create a <code>.env</code> file in the root directory and add your OpenWeatherMap API key:
+    <pre><code>REACT_APP_API_KEY=your_openweathermap_api_key</code></pre>
+  </li>
+  <li>Start the development server:
+    <pre><code>npm start</code></pre>
+  </li>
+  <li>Open your browser and go to <a href="http://localhost:3000">http://localhost:3000</a>.</li>
+</ol>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Usage</h2>
+<ol>
+  <li>Enter a city name in the search input field.</li>
+  <li>The current weather and 5-day forecast for that city will be displayed.</li>
+  <li>Use the toggle button to switch between Celsius and Fahrenheit.</li>
+  <li>If an invalid city name is entered, a modal popup will alert you to enter a valid city name.</li>
+</ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Project Structure</h2>
+<pre><code>├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   ├── CitySearch.js
+│   │   ├── CityName.js
+│   │   ├── TemperatureDisplay.js
+│   │   ├── WeatherIcon.js
+│   │   ├── ToggleButton.js
+│   │   ├── WeatherCondition.js
+│   │   └── Fivedayforcast.js
+│   ├── App.js
+│   └── index.js
+├── README.md
+├── package.json
+└── .env
+</code></pre>
 
-### `npm test`
+<h2>Key Components</h2>
+<ul>
+  <li><strong>CitySearch</strong>: Component for searching weather by city name.</li>
+  <li><strong>CityName</strong>: Displays the name of the city.</li>
+  <li><strong>TemperatureDisplay</strong>: Displays the temperature in Celsius or Fahrenheit.</li>
+  <li><strong>WeatherIcon</strong>: Shows the corresponding weather icon from OpenWeatherMap.</li>
+  <li><strong>ToggleButton</strong>: Toggle between Celsius and Fahrenheit.</li>
+  <li><strong>WeatherCondition</strong>: Displays the weather description (e.g., clear, cloudy).</li>
+  <li><strong>Fivedayforcast</strong>: Displays the 5-day forecast with daily highs and lows.</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Dependencies</h2>
+<ul>
+  <li><a href="https://reactjs.org/">React</a></li>
+  <li><a href="https://chakra-ui.com/">Chakra UI</a> - For UI components and styling</li>
+  <li><a href="https://openweathermap.org/api">OpenWeatherMap API</a> - To fetch weather data</li>
+</ul>
 
-### `npm run build`
+<h2>API Key Setup</h2>
+<p>
+  To use the application, you will need an API key from <a href="https://openweathermap.org/api">OpenWeatherMap</a>. After creating an account and obtaining your API key, add it to the <code>.env</code> file in the project root as follows:
+</p>
+<pre><code>REACT_APP_API_KEY=your_openweathermap_api_key
+</code></pre>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Screenshots</h2>
+<h3>Current Weather and Forecast</h3>
+<p><img src="#" alt="Weather App Screenshot"></p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3>Error Modal (Invalid City)</h3>
+<p><img src="#" alt="Error Modal Screenshot"></p>
