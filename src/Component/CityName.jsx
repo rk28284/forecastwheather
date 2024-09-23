@@ -7,7 +7,7 @@ export const CityName = ({ city }) => {
   return (
     <Box mt={4}>
       <Heading as="h2" size="xl" color="blue.600">
-       City Name:- {city}
+        Location: {city}
       </Heading>
     </Box>
   );

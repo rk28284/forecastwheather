@@ -15,7 +15,7 @@ function App() {
       p={5}
     >
       <Wheather />
-      <Fivedayforcast />
+    
     </Box>
   );
 }

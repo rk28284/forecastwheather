@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { WeatherIcon } from './WeatherIcon';
-import "../App.css"
+
 
 
 export const ForecastCard = ({ day, unit }) => {

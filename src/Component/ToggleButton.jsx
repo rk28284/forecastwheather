@@ -10,12 +10,12 @@ export const ToggleButton = ({ unit, setUnit }) => {
     <Button 
     mt={2}
       onClick={toggleUnit}
-      size="sm" // Adjust size as needed
+      size="sm" 
     colorScheme="blue"
           variant="solid"
-     // Choose a color scheme 
+  
      
-      _hover={{ bg: 'teal.500', color: 'white' }} // Hover effect
+      _hover={{ bg: 'teal.500', color: 'white' }} 
     >
       Switch to {unit === 'C' ? 'Fahrenheit' : 'Celsius'}
     </Button>
